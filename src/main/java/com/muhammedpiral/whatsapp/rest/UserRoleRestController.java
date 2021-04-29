@@ -1,10 +1,12 @@
 package com.muhammedpiral.whatsapp.rest;
 
 import java.util.Date;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -45,7 +47,7 @@ public class UserRoleRestController {
 	}
 	
 	
-	@PutMapping("/roles/update")
+	@PutMapping("/roles/updaterole")
 	public ResponseEntity<String> update(@RequestParam String userUuid, @RequestParam String roleCode,@CurrentUser UserDetails details)
 			throws UserNotFoundExceptions {
 		User user = this.userService.findByUuid(userUuid);
@@ -64,7 +66,6 @@ public class UserRoleRestController {
 		throw new UserNotFoundExceptions(userUuid);
 
 	}
-	
-	
+
 
 }

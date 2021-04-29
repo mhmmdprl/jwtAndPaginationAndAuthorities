@@ -17,7 +17,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Table(name = "OPERATIONS")
-@Where(clause="deleted='0'")
+
 public class Operation extends BaseEntity {
 
 	private static final long serialVersionUID = 1L;
@@ -37,7 +37,7 @@ public class Operation extends BaseEntity {
 	@Column(name = "DESCRIPTION")
 	private String description;
 	
-	@Column(name = "CODEE")
+	@Column(name = "CODE")
 	private String code;
 	
 

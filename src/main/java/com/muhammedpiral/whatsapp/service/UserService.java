@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.muhammedpiral.whatsapp.entity.User;
 import com.muhammedpiral.whatsapp.repository.spefication.UserSpecification;
 
-@Service
+
 public interface UserService extends BaseService<User, UserSpecification> {
 
 	public	User userSave(User user);

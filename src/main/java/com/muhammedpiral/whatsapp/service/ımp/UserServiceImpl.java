@@ -80,7 +80,6 @@ public class UserServiceImpl implements UserService, UserDetailsService {
 
 	@Override
 	public User findByUsername(String username) {
-		// TODO Auto-generated method stub
 		return this.userRepository.findByUsername(username);
 	}
 

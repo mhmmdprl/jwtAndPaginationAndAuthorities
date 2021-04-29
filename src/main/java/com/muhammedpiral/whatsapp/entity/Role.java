@@ -25,7 +25,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Table(name = "ROLES")
-@Where(clause="deleted='0'")
+
 @EqualsAndHashCode(callSuper=false)
 
 public class Role extends BaseEntity {

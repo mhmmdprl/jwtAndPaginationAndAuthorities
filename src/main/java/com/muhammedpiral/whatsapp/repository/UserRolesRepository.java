@@ -6,6 +6,4 @@ import com.muhammedpiral.whatsapp.entity.UserRoles;
 public interface UserRolesRepository extends BaseRepository<UserRoles> {
 	
 	
-
-	
 }
