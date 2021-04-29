@@ -3,7 +3,6 @@ package com.muhammedpiral.whatsapp.service;
 import java.util.Set;
 
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.stereotype.Service;
 
 import com.muhammedpiral.whatsapp.entity.User;
 import com.muhammedpiral.whatsapp.repository.spefication.UserSpecification;
