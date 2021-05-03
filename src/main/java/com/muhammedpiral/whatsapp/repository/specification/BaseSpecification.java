@@ -1,4 +1,4 @@
-package com.muhammedpiral.whatsapp.repository.spefication;
+package com.muhammedpiral.whatsapp.repository.specification;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,11 +11,11 @@ import javax.persistence.criteria.Root;
 import com.muhammedpiral.whatsapp.model.SearchCriteria;
 
 
-public abstract class BaseSpefication<E> {
+public abstract class BaseSpecification<E> {
 
 	protected List<SearchCriteria> criteriaList;
 
-	public BaseSpefication(List<SearchCriteria> criteriaList) {
+	public BaseSpecification(List<SearchCriteria> criteriaList) {
 		this.criteriaList = criteriaList;
 	}
 	

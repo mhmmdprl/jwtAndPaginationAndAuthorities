@@ -1,4 +1,4 @@
-package com.muhammedpiral.whatsapp.repository.spefication;
+package com.muhammedpiral.whatsapp.repository.specification;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import org.springframework.data.jpa.domain.Specification;
 import com.muhammedpiral.whatsapp.entity.Role;
 import com.muhammedpiral.whatsapp.model.SearchCriteria;
 
-public class RoleSpecification extends BaseSpefication<Role> implements Specification<Role> {
+public class RoleSpecification extends BaseSpecification<Role> implements Specification<Role> {
 
 	/**
 	 * 

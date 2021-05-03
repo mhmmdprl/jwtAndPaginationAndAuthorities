@@ -1,4 +1,4 @@
-package com.muhammedpiral.whatsapp.repository.spefication;
+package com.muhammedpiral.whatsapp.repository.specification;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import org.springframework.data.jpa.domain.Specification;
 import com.muhammedpiral.whatsapp.entity.Operation;
 import com.muhammedpiral.whatsapp.model.SearchCriteria;
 
-public class OperationSpecification extends BaseSpefication<Operation> implements Specification<Operation> {
+public class OperationSpecification extends BaseSpecification<Operation> implements Specification<Operation> {
 
 	/**
 	 * 
