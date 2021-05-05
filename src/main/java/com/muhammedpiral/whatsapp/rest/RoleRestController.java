@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.muhammedpiral.whatsapp.entity.Role;
 import com.muhammedpiral.whatsapp.exceptions.RoleNotFoundException;
-import com.muhammedpiral.whatsapp.repository.spefication.RoleSpecification;
+import com.muhammedpiral.whatsapp.repository.specification.RoleSpecification;
 import com.muhammedpiral.whatsapp.request.ListRequest;
 import com.muhammedpiral.whatsapp.service.RoleService;
 import com.muhammedpiral.whatsapp.service.UserService;

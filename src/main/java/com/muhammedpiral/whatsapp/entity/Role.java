@@ -46,8 +46,6 @@ public class Role extends BaseEntity {
 	@Column(name = "DESCRIPTION")
 	private String description;
 
-	
-
 	@JsonIgnore
 	@ManyToMany(fetch = FetchType.LAZY )
 	@JoinTable(name = "ROLES_OPERATIONS", joinColumns = @JoinColumn(name = "ROLE_CODE", referencedColumnName = "CODE"), 

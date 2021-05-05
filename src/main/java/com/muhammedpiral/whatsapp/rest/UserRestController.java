@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.muhammedpiral.whatsapp.entity.User;
 import com.muhammedpiral.whatsapp.exceptions.AlreadyUseExecpitons;
 import com.muhammedpiral.whatsapp.exceptions.UserNotFoundExceptions;
-import com.muhammedpiral.whatsapp.repository.spefication.UserSpecification;
+import com.muhammedpiral.whatsapp.repository.specification.UserSpecification;
 import com.muhammedpiral.whatsapp.request.ListRequest;
 import com.muhammedpiral.whatsapp.request.UserUpdateRequest;
 import com.muhammedpiral.whatsapp.service.UserService;
@@ -69,7 +69,7 @@ public class UserRestController {
 		if (userUpdateRequest != null) {
 			
 			User user= new User();
-			user.setAge(userUpdateRequest.getAge());
+			user.setBirtOfDate(new Date());
 			user.setMyAbout(userUpdateRequest.getMyAbout());
 			user.setProfilePhoto(userUpdateRequest.getProfilePhoto());
 			user.setPhoneNumber(userUpdateRequest.getPhoneNumber());

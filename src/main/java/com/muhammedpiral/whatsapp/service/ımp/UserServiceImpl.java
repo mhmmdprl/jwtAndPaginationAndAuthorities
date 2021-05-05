@@ -14,7 +14,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import com.muhammedpiral.whatsapp.entity.User;
 import com.muhammedpiral.whatsapp.model.SearchCriteria;
 import com.muhammedpiral.whatsapp.repository.UserRepository;
-import com.muhammedpiral.whatsapp.repository.spefication.UserSpecification;
+import com.muhammedpiral.whatsapp.repository.specification.UserSpecification;
 import com.muhammedpiral.whatsapp.service.UserService;
 
 import lombok.RequiredArgsConstructor;

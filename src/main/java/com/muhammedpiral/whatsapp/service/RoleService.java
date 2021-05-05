@@ -3,7 +3,7 @@ package com.muhammedpiral.whatsapp.service;
 import org.springframework.stereotype.Service;
 
 import com.muhammedpiral.whatsapp.entity.Role;
-import com.muhammedpiral.whatsapp.repository.spefication.RoleSpecification;
+import com.muhammedpiral.whatsapp.repository.specification.RoleSpecification;
 
 @Service
 public interface RoleService extends BaseService<Role, RoleSpecification>{

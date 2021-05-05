@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import com.muhammedpiral.whatsapp.entity.Role;
 import com.muhammedpiral.whatsapp.model.SearchCriteria;
 import com.muhammedpiral.whatsapp.repository.RoleRepository;
-import com.muhammedpiral.whatsapp.repository.spefication.RoleSpecification;
+import com.muhammedpiral.whatsapp.repository.specification.RoleSpecification;
 import com.muhammedpiral.whatsapp.service.RoleService;
 
 import lombok.RequiredArgsConstructor;

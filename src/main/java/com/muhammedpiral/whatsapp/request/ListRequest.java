@@ -10,10 +10,8 @@ import org.springframework.data.domain.Sort;
 import com.muhammedpiral.whatsapp.model.SearchCriteria;
 
 import lombok.Data;
-import lombok.ToString;
 
 @Data
-@ToString
 public class ListRequest {
 
 	private List<SearchCriteria> search = new ArrayList<SearchCriteria>();
